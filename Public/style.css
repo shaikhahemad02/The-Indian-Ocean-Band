@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@font-face {
+    font-family: 'Booterzz';
+    src: url('Fonts/BOOTERFF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+ 
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+   
+   
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+.nav a:hover {
+    background-color: #555;
+}
+.main-nav {
+    border-bottom: 1px solid #555;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+.main-header {
+    background-image: url('Images/music.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    font-size: 4em;
+    font-family: booterzz;
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: normal;
+}
+.band-name-large {
+    font-size: 8em;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container-section {
+    margin: 1 em;
+}
+.Section-title {
+    font-family: 'Metal Mania';
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    padding: 0;
+}
+.band-info {
+    display:inline-block;
+    
+}
+.band-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+}
+.main-footer {
+    background-color: #68d1f4;
+    color: #fff;
+    display:block;
+    padding: 10px;
+}
+.main-footer ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.main-footer a:hover {
+        background-color: #00000000;
+        
+    }
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+.band-buttons {
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+   
+
+}
+.btn {
+    width: auto;
+    height: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #68d1f4;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #68d1f4;
+    
+}
+.btn:hover { 
+    background-color:rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.btn-Records {
+    display:  block;
+    margin-left: 35%;
+    padding: 10px 20px;
+}
+.btn-play{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.7em;
+    display: block;
+    margin: 40px auto;
+}
+.btn-tours {
+    display: inline-block;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #68d1f4;
+}
+.btn-tours:hover {
+    background-color: #fff;
+    color: #68d1f4;
+}
+.tour-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.tour-item span {
+    flex: 1;
+    text-align: left;
+}
+.tour-date {
+    padding-left: 20px;
+    font-weight: bold;
+    color: #68d1f4;
+}
+.tour-item:last-child {
+    border-bottom: 0px;
+}
+.store-items-music{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.store-items-merch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.store-item-title{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.store-item-img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1.2em;
+}
+.store-item-price{
+    display:inline-flex;
+    flex-grow:1;
+    font-weight:normal;
+}
+.store-item-btn{
+    align-items: end;
+    display: inline-block;
+}
+.store-item-box{
+    margin: 1.5em;
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+}
+.cart-item-headers{
+    display: flex;
+    margin-right: 1.7em;
+}
+.cart-column{
+    border-bottom: 1px solid #555;
+    margin-right: 1.5em;
+    margin-bottom:0.7em;
+    padding-bottom: 0.7em;
+    align-items: center;
+}
+.cart-item-h-item{
+    display: flex;
+    width:45%;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.cart-item-price{
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+.cart-item-quantity{
+    width:35%;
+    text-align: left;
+    font-weight: bold;
+}
+.btn-cart{
+    height:40px;
+    background-color: red;
+    border:0;
+    font-weight: bold;
+}
+.btn-cart:hover{
+    background-color: rgba(255,0,0,0.6);
+    color:black;
+}
+.cart-image{
+    width:65px;
+    height: 65px;
+    border-radius: 10%;
+}
+.cart-items-item{
+    display: flex;
+    width:45%;
+    align-items: center;
+    vertical-align: middle;
+}
+.cart-items-price{
+    display: flex;
+    width:20%;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: normal;
+}
+.cart-input{
+width:60px;
+height: 34px;
+border-radius: 2px;
+margin: 5px;
+border: 1.5px solid #68d1f4;
+background-color: antiquewhite;
+text-align: center;
+}
+.cart-items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.7em;
+}
+.cart-items-quantity{
+    display: flex;
+    width:35%;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 0em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 20px auto 0 auto;
+
+}
+.purchase-total{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-right: 1.2em;
+}
+.purchase-total-amount{
+    font-weight: normal;
+    font-size: 1.4em;
+}
+.cart-items:last-child .cart-column{
+    border-bottom: 0px;
+}
+.purchase-total-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1em;
+    margin-right: 3em;
+}
+.item-title{
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin-left: 1.3em;
+}
+.cart-items-container{
+    border-bottom: 1px solid black;
+    
+}

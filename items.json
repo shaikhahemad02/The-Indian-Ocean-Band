@@ -1,0 +1,66 @@
+{
+    "music": [
+        {
+            "id": 1,
+            "title": "Be Your Self",
+            "artist": "The Indian Ocean",
+            "album": "Kandisa",
+            "year": 2013,
+            "genre": "Progressive Rock",
+            "price": 199,
+            "currency": "₹",
+            "image": "Album1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "The Ocean ",
+            "artist": "The Indian Ocean",
+            "album": "Phelepaha",
+            "year": 2003,
+            "genre": "Fusion",
+            "price": 149,
+            "currency": "₹",
+            "image": "Ocean1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Ocean2",
+            "artist": "The Indian Ocean",
+            "album": "The Indian Ocean",
+            "year": 2000,
+            "genre": "Alternative Rock",
+            "price": 129,
+            "currency": "₹",
+            "image": "Ocean2.jpg"
+        },
+        {
+            "id": 4,
+            "title": "The Ocean3",
+            "artist": "The Indian Ocean",
+            "album": "Kandisa",
+            "year": 2012,
+            "genre": "Rock",
+            "price": 179,
+            "currency": "₹",
+            "image": "ocean3.jpg"
+        }
+    ],
+    "merch": [
+        {
+            "id": 5,
+            "name": "Coffee Cup",
+            "description": "Official concert tee with the band logo.",
+            "price": 24.99,
+            "currency": "₹",
+            "image": "coffee-Cup.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Studio T shirt",
+            "description": "Comfortable t-shirt inspired by the band's latest album.",
+            "price": 44.99,
+            "currency": "₹",
+            "image": "T-shirt.jpg"
+        }
+    ]
+}
